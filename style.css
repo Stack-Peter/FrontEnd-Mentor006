@@ -342,3 +342,21 @@ input::placeholder {
     width: 300px;
   }
 }
+
+.empty::after {
+  content: "Preencha este campo";
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+
+input.actived {
+  margin-bottom: 0;
+}
+
+.empty-mail::after {
+  content: "E-mail inválido";
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
