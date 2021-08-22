@@ -191,11 +191,19 @@ input::placeholder {
 }
 
 @media screen and (max-width: 620px) {
+  .color {
+    height: 100%;
+  }
+
+  .svgs {
+    height: 100%;
+  }
+
   .content {
+    height: 800px;
     display: block;
     padding: 0;
   }
-
   .son-1 {
     max-width: 100%;
     text-align: center;
@@ -220,12 +228,34 @@ input::placeholder {
     background: white;
     padding: 30px 30px 0 30px;
   }
+  input {
+    width: 322px;
+  }
+  button {
+    width: 340px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: white;
+    background: hsl(154, 59%, 51%);
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 8px 12px 8px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
 }
 
 @media screen and (max-width: 420px) {
+  .color {
+    height: 100%;
+  }
+
+  .svgs {
+    height: 100%;
+  }
+
   .content {
-    display: block;
-    padding: 0;
+    height: 650px;
   }
 
   .son-1 {
